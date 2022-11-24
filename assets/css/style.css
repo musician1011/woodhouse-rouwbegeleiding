@@ -1723,7 +1723,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/placeholders/footer-bg.jpg") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
@@ -1739,7 +1739,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 }
 
