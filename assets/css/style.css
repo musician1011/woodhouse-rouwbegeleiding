@@ -351,8 +351,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 50vh;
-  background: url("../img/placeholders/huis.jpeg");
+  height: 60vh;
+  background: url("../img/placeholders/huis-2.jpg");
   position: relative;
 }
 
