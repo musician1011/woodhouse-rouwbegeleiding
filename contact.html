@@ -33,6 +33,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
+
 </head>
 
 <body>
@@ -59,11 +66,12 @@
                     <li><a href="rouw.html">Rouw</a></li>
                     <li><a href="pricing.html">Tarieven</a></li>
                     <!--<li><a class="active" href="contact.html">Contact</a></li>-->
-                    <li class="dropdown"><a href="contact.html"><span>Contact</span><i class="bi bi-chevron-down"></i></a>
+                    <li class="dropdown"><a class="active" href="contact.html"><span>Contact</span><i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#contact-gent">Gent</a></li>
                             <li><a href="#contact-knokke">Knokke-heist</a></li>
                         </ul>
+                    </li>
 
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -92,7 +100,8 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Adres:</h4>
-                                <p><a href="https://bit.ly/3ie8WDy" target="blank" style="color: #484848;">Ter Vennen 16<br>9070 Heusden (Destelbergen)</a></p>
+                                <p><a href="https://bit.ly/3ie8WDy" target="blank" style="color: #484848;">Ter Vennen 16<br>9070 Heusden
+                    (Destelbergen)</a></p>
                             </div>
 
                             <div class="email">
@@ -116,7 +125,7 @@
                         <!-- Start Google Map -->
                         <div class="col-md-6">
                             <!-- Start Map -->
-                            <div style="width: 100%"><iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ter%20vennen%2016,%20destelbergen+(Woodhouse%20rouwbegeleiding)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            <div style="width: 100%"><iframe width="" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onload="resizeIframe(this);" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ter%20vennen%2016,%20destelbergen+(Woodhouse%20rouwbegeleiding)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                                 <!-- End Google Map -->
 
                             </div>
@@ -143,7 +152,8 @@
                             <div class="address">
                                 <i class="bi bi-geo-alt"></i>
                                 <h4>Adres:</h4>
-                                <p><a href="https://bit.ly/3ie8WDy" target="blank" style="color: #484848;">Westkapellestraat 60<br>8301 Knokke-heist</a></p>
+                                <p><a href="https://bit.ly/3iTVXY9" target="blank" style="color: #484848;">Westkapellestraat 60<br>8301
+                    Knokke-heist</a></p>
                             </div>
 
                             <div class="email">
@@ -212,7 +222,8 @@
     </footer>
     <!-- End Footer -->
 
-    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/aos/aos.js"></script>
