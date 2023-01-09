@@ -1760,7 +1760,9 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-    background: url("../img/placeholders/footer-bg.jpg") center center no-repeat;
+    background: url("../img/placeholders/footer.webp") center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     font-size: 14px;
     position: relative;
