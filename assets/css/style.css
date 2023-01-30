@@ -1390,6 +1390,7 @@ section {
     position: relative;
     overflow: hidden;
     border: 1px solid #fff;
+    min-height: 400px;
 }
 
 .pricing .box h3 {
