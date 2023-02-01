@@ -584,7 +584,7 @@ section {
     box-shadow: 0px 0 25px rgba(0, 0, 0, 0.08);
 }
 
-.featured .nav-link.active h4 {
+.featured .nav-link.active {
     color: #5E6652;
 }
 
@@ -1390,7 +1390,7 @@ section {
     position: relative;
     overflow: hidden;
     border: 1px solid #fff;
-    min-height: 400px;
+    min-height: 410px;
 }
 
 .pricing .box h3 {
@@ -1399,6 +1399,15 @@ section {
     margin-top: 15px;
     font-size: 18px;
     font-weight: 600;
+    color: #151515;
+}
+
+.pricing .box h5 {
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 8px;
+    font-size: 16px;
     color: #151515;
 }
 
