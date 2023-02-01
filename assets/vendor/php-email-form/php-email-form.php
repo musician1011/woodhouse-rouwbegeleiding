@@ -84,7 +84,7 @@ class PHP_Email_Form {
   public function send() {
 
     if( !empty(trim($this->honeypot)) ) {
-      return 'OK';
+      return 'Uw bericht is verstuurd!';
     }
 
     if( $this->recaptcha_secret_key ) {
@@ -113,11 +113,11 @@ class PHP_Email_Form {
       }
     }
 
-    if( $this->ajax ) {
-      if( !isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
-        return $this->error_msg['ajax_error'];
-      }
-    }
+    // if( $this->ajax ) {
+    //   if( !isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
+    //     return $this->error_msg['ajax_error'];
+    //   }
+    // }
 
     $to = filter_var( $this->to, FILTER_VALIDATE_EMAIL);
     $from_name = filter_var( $this->from_name, FILTER_SANITIZE_STRING);
@@ -228,7 +228,7 @@ class PHP_Email_Form {
 
       $mail->send();
 
-      return 'OK';
+      return 'Uw bericht is verzonden';
     } catch (Exception $e) {
       return 'Mailer Error: ' . $mail->ErrorInfo;
     }
