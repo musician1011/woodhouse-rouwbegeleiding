@@ -1796,7 +1796,7 @@ section {
     position: relative;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     max-height: 5%;
 }
 
