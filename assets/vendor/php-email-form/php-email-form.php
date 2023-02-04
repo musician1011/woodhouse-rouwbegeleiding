@@ -228,9 +228,9 @@ class PHP_Email_Form {
 
       $mail->send();
 
-      return 'Uw bericht is verzonden';
+      header ('Location: http://willem.innovisia.nl/contact.php?formSend=true');
     } catch (Exception $e) {
-      return 'Mailer Error: ' . $mail->ErrorInfo;
+      //return 'Mailer Error: ' . $mail->ErrorInfo;
     }
     
   }

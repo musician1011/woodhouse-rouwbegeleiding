@@ -1,3 +1,10 @@
+<?php
+if ($_GET['formSend'] !== null){
+    $isSend = $_GET['formSend'];
+}else {
+    $isSend = false;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -112,7 +119,7 @@
                             <div class="my-3">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
-                                <div class="sent-message">Uw bericht is verstuurd. Hartelijk dank!</div>
+                                <div class="sent-message" style="display: <?= $isSend? 'block': 'none' ?>">Uw bericht is verstuurd. Hartelijk dank!</div>
                             </div>
                             <div class="text-center"><button type="submit">Verstuur bericht</button></div>
                         </form>
