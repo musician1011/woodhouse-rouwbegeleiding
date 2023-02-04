@@ -6,3 +6,6 @@ RewriteCond %{REQUEST_URI} !\.html$ [NC]
 RewriteCond %{REQUEST_URI} [^/]$
 # Rewrite the request with a .php extension. L means this is the 'Last' rule
 RewriteRule ^(.*)$ $1.html [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
