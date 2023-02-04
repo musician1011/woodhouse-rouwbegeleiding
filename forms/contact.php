@@ -19,6 +19,8 @@
   $contact->ajax = true;
   
   $contact->to = $receiving_email_address;
+  //$contact->cc = $_POST['email'];
+  //$contact->bcc = $_POST['email'];
   $contact->from_name = $_POST['name'];
   $contact->from_email = $_POST['email'];
   $contact->subject = $_POST['subject'];

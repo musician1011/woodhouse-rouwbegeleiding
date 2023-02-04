@@ -1,6 +1,9 @@
 <?php
 if ($_GET['formSend'] !== null){
     $isSend = $_GET['formSend'];
+    $page = $_SERVER['PHP_SELF'];
+    $sec = "5";
+    header("Refresh: $sec; url=$page");
 }else {
     $isSend = false;
 }
