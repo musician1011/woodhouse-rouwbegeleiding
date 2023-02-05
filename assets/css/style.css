@@ -1953,7 +1953,7 @@ section {
     padding-top: 5px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     #footer .footer-head h4 {
         padding-top: 50%;
     }

@@ -17,7 +17,7 @@ if ($_GET['formSend'] !== null){
 
     <title>Woodhouse Rouwbegeleiding - Contact</title>
     <meta content="Woodhouse Rouwbegeleiding in Gent en Knokke. Contacteer Marianne Staelens voor een gesprek, lutografie, access bars en/of wandeltherapie." name="description">
-    <meta content="rouwbegeleiding, rouw, verlies, coaching, wandeltherapie, access bars, lutografie" name="keywords">
+    <meta content="rouwbegeleiding, rouw, verlies, coaching, wandeltherapie, access bars, lutografie, Gent, Destelbergen, Heusden, Knokke-Heist" name="keywords">
     <meta content="Marianne Staelens" name="author">
 
     <!-- Favicons -->
