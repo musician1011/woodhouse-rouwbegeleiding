@@ -272,7 +272,7 @@ if ($_GET['formSend'] !== null){
                     <!-- end single footer -->
                     <div class="col-md-12">
                         <div class="footer-content ">
-                            <div class="footer-head" style="text-align: center;">
+                        <div class="footer-head" style="text-align: center; padding-top: 20px;">
                                 <h4 style="color:#9EAB89;">Marianne Staelens</h4>
                                 <h4 style="color: #9EAB89;">Woodhouse Rouwbegeleiding</h4>
                             </div>
