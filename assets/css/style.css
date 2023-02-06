@@ -1822,9 +1822,29 @@ section {
     height: 80px;
 }
 
+#footer .footer-head h4 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0 0 0;
+    margin-bottom: 0;
+}
+
 #footer .footer-top h3 {
     font-size: 36px;
     font-weight: 700;
+    color: #fff;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 30px 0 0 0;
+    margin-bottom: 0;
+}
+
+#footer .footer-head h4 {
+    font-size: 20px;
+    font-style: normal;
     color: #fff;
     position: relative;
     font-family: "Poppins", sans-serif;
@@ -1931,4 +1951,10 @@ section {
     text-align: center;
     font-size: 13px;
     padding-top: 5px;
+}
+
+@media (max-width: 600px) {
+    #footer .footer-head h4 {
+        padding-top: 50%;
+    }
 }
