@@ -9,16 +9,20 @@ if ($_GET['formSend'] !== null){
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:fb="http://ogp.me/ns/fb#">
 
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Woodhouse Rouwbegeleiding - Contact</title>
-    <meta content="Woodhouse Rouwbegeleiding in Gent en Knokke. Contacteer Marianne Staelens voor een gesprek, lutografie, access bars en/of wandeltherapie." name="description">
-    <meta content="rouwbegeleiding, rouw, verlies, coaching, wandeltherapie, access bars, lutografie, Gent, Destelbergen, Heusden, Knokke-Heist" name="keywords">
+    <meta content="Woodhouse Rouwbegeleiding in Gent en Knokke. Contacteer Marianne Staelens voor een gesprek, lutografie, access bars en wandelcoaching." name="description">
+    <meta content="rouwbegeleiding, rouw, verlies, coaching, wandelcoaching, access bars, lutografie, Gent, Destelbergen, Heusden, Knokke-Heist" name="keywords">
     <meta content="Marianne Staelens" name="author">
+    <meta property="og:image" content="http://woodhouse-rouwbegeleiding.be/assets/img/placeholders/Beeldje.webp">
+
 
     <!-- Favicons -->
     <link href="assets/img/placeholders/favicon.png" rel="icon">
