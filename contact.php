@@ -17,7 +17,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Woodhouse Rouwbegeleiding - Contact</title>
+    <title>Contact - Woodhouse Rouwbegeleiding</title>
     <link rel="canonical" href="https://woodhouse-rouwbegeleiding.be/contact.php">
     <meta content="Woodhouse Rouwbegeleiding in Gent en Knokke. Contacteer Marianne Staelens voor een gesprek, lutografie, access bars en wandelcoaching." name="description">
     <meta content="rouwbegeleiding, rouw, verlies, coaching, wandelcoaching, access bars, lutografie, Gent, Destelbergen, Heusden, Knokke-Heist" name="keywords">
