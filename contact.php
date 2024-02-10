@@ -9,7 +9,7 @@ if ($_GET['formSend'] !== null){
 }
 ?>
 <!DOCTYPE html>
-<html lang="en"
+<html lang="nl"
 xmlns="http://www.w3.org/1999/xhtml"
 xmlns:fb="http://ogp.me/ns/fb#">
 
@@ -18,7 +18,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Contact - Heusden-Destelbergen (bij Gent) en Knokke-Heist -  Woodhouse Rouwbegeleiding</title>
-    <link rel="canonical" href="https://woodhouse-rouwbegeleiding.be/contact.php">
+    <link rel="canonical" href="https://woodhouse-rouwbegeleiding.be/contact">
     <meta content="Woodhouse Rouwbegeleiding in Gent en Knokke. Contacteer Marianne Staelens voor een gesprek, lutografie, access bars en wandelcoaching." name="description">
     <meta content="rouwbegeleiding, rouw, verlies, coaching, wandelcoaching, access bars, lutografie, Gent, Destelbergen, Heusden, Knokke-Heist" name="keywords">
     <meta content="Marianne Staelens" name="author">
@@ -86,12 +86,12 @@ xmlns:fb="http://ogp.me/ns/fb#">
         <div class="container d-flex align-items-center justify-content-between">
 
             <div class="logo">
-                <a href="index"><img src="assets/img/placeholders/favicon-v2.png" alt="" class="img-fluid">Woodhouse Rouwbegeleiding</a>
+                <a href="https://woodhouse-rouwbegeleiding.be/"><img src="assets/img/placeholders/favicon-v2.png" alt="" class="img-fluid">Woodhouse Rouwbegeleiding</a>
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index">Home</a></li>
+                    <li><a href="https://woodhouse-rouwbegeleiding.be/">Home</a></li>
                     <li><a href="aanbod">Aanbod</a></li>
                     <li><a href="tarieven">Tarieven</a></li>
                     <li><a class="active" href="contact">Contact</a></li>
@@ -111,7 +111,7 @@ xmlns:fb="http://ogp.me/ns/fb#">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Neem gerust contact op!</h2>
+                    <h1>Neem gerust contact op!</h1>
                 </div>
 
                 <div class="row">
@@ -207,6 +207,11 @@ xmlns:fb="http://ogp.me/ns/fb#">
                                 <h4><a href="https://wa.me/+32471651557" style="color: #151515;" target="blank">Whatsapp:</a></h4>
                                 <p><a href="https://wa.me/+32471651557" style="color: #484848;" target="blank">Stuur een bericht</a></p>
                             </div>
+                            
+                            <div class="whatsapp">
+                                <i class="bi bi-bookmark-plus"></i>
+                                <p><a>Je vindt me ook op <a href="https://www.vindeentherapeut.be/therapeut/marianne-staelens-heusden.html" target="blank">vindeentherapeut.be</a> </a></p>
+                            </div>
 
 
                         </div>
@@ -280,11 +285,11 @@ xmlns:fb="http://ogp.me/ns/fb#">
                             <!-- End Google Map -->
 
                         </div>
-
                     </div>
 
                 </div>
         </section>
+
         <!-- End Contact Section -->
 
     </main>
